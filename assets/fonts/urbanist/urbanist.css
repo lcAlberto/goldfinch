@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Urbanist-Medium';
+    src: url('./Urbanist-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist-Bold';
+    src: url('./Urbanist-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist-Light';
+    src: url('./Urbanist-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

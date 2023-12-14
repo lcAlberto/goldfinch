@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Morganite-Medium';
+    src: url('./Morganite-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Morganite-Black';
+    src: url('./Morganite-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Morganite-Light';
+    src: url('./Morganite-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
