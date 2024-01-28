@@ -1,6 +1,6 @@
 <template>
   <!-- <div class="fixed navbar bg-primary z-10 p-16"></div> -->
-  <section class="sooner relative flex bg-gray-100 h-screen overflow-hidden">
+  <section class="sooner bg-cover bg-[url('~/assets/images/background/em-construcao.png')] relative flex bg-gray-100 h-screen overflow-hidden">
     <div class="justify-start mt-4">
       <div class="ml-4 block">
         <h1 class="ml-4 mt-40 text-gray-400 text-fixed leading-none">
@@ -36,19 +36,19 @@
 
 <style scoped>
  .sooner {
-    background-image: url('~/assets/images/background/em-construcao.png');
-    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    background-position: center; /* Centraliza a imagem verticalmente e horizontalmente */
-  }
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
 
   .text-fixed {
   position: relative;
-  font-size: 2.6rem; /* Tamanho de fonte base, ajustável nas media queries */
+  font-size: 2.6rem;
   }
   .subtext-fixed {
   position: relative;
-  font-size: 1.6rem; /* Tamanho de fonte base, ajustável nas media queries */
+  font-size: 1.6rem;
   }
   @media (max-width: 300px) {
   .text-fixed {
