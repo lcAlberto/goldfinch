@@ -1,7 +1,17 @@
 <template>
-  <div class="fixed navbar bg-primary z-10 p-16"></div>
-  <section class="w-full relative flex bg-gray-100 h-screen overflow-hidden">
-    <div class="w-[60%] flex justify-start mt-[20%]">
+  <!-- <div class="fixed navbar bg-primary z-10 p-16"></div> -->
+  <section class="sooner relative flex bg-gray-100 h-screen overflow-hidden">
+    <div class="justify-start mt-4">
+      <div class="ml-4 block">
+        <h1 class="ml-4 mt-40 text-gray-400 text-fixed leading-none">
+          UNDER CONSTRUCTION  
+        </h1>
+        <h4 class="ml-4 text-lg mt-30 subtext-fixed text-gray-400 leading-tight">
+          Our website will be ready soon!
+        </h4>
+      </div>
+    </div>
+    <!-- <div class="w-[60%] flex justify-start mt-[20%]">
       <div class="w-1/3 ml-[30%] block">
         <h1 class="text-5xl font leading-[3.5rem]">
           Dê um passo para
@@ -15,17 +25,39 @@
           <button class="btn btn-sm btn-secondary px-5 uppercase tracking-[8px] rounded-3xl">Conheça</button>
         </div>
       </div>
-    </div>
-    <div class="w-[40%] bg-[url('~/assets/images/background/home.png')]">
+    </div> -->
+    <!-- <div class="w-[40%] sooner bg-[url('~/assets/images/background/home.png')]">
       <img class="w-1/2 z-1 absolute right-[15%] mt-10 mr-24" src="~/assets/images/background/01.png" alt="01">
-    </div>
+    </div> -->
   </section>
 
-  <section class="relative w-full flex bg-gray-100 h-screen overflow-hidden"></section>
+  <!-- <section class="relative w-full flex bg-gray-100 h-screen overflow-hidden"></section> -->
 </template>
 
 <style scoped>
+ .sooner {
+    background-image: url('~/assets/images/background/em-construcao.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center; /* Centraliza a imagem verticalmente e horizontalmente */
+  }
 
+  .text-fixed {
+  position: relative;
+  font-size: 2.6rem; /* Tamanho de fonte base, ajustável nas media queries */
+  }
+  .subtext-fixed {
+  position: relative;
+  font-size: 1.6rem; /* Tamanho de fonte base, ajustável nas media queries */
+  }
+  @media (max-width: 300px) {
+  .text-fixed {
+    font-size: 2rem;
+  }
+  .subtext-fixed {
+    font-size: 1.2rem;
+  }
+} 
 </style>
 <script setup lang="ts">
 </script>
