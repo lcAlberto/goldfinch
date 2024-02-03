@@ -1,11 +1,14 @@
 <template>
-  <div class="w-1/2 p-5 mx-auto flex items-center justify-between text-gray-100">
+  <div
+      class="max-w-100 lg:w-1/2 p-5 mx-auto flex flex-row gap-3 items-center justify-between flex-wrap text-gray-100 md:bg-transparent"
+      :class="transparent ? '' : 'bg-primary'"
+  >
     <img
         src="~/assets/images/logo-GOLDFINCH_white_footer.png"
-        class="w-32"
+        class="md:w-32 w-1/4"
         alt=""
     />
-    <ul class="flex gap-5">
+    <ul class="flex flex-row gap-2 md:gap-5">
       <li>
         <NuxtLink to="/">Início</NuxtLink>
       </li>
@@ -16,14 +19,14 @@
         <NuxtLink to="/about">Quem somos</NuxtLink>
       </li>
       <li>
-        <NuxtLink>POD</NuxtLink>
+        <NuxtLink to="/#d">POD</NuxtLink>
       </li>
     </ul>
-    <div class="border border-gray-100 py-1 px-5 font-bold text-xs">
+    <div class="flex lg:flex-col border border-gray-100 py-1 px-5 font-bold text-xs">
       <div class="flex flex-col items items-center">
         IDIOMA
       </div>
-      <div class="flex items-center gap-2">
+      <div class="flex items-center ml-2 gap-2">
         <span>ENG</span>
         <span>|</span>
         <span>ESP</span>
@@ -37,7 +40,9 @@
     setup
     lang="ts"
 >
-
+const props = defineProps({
+  transparent: { type: Boolean, default: false }
+})
 </script>
 
 
