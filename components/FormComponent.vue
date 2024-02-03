@@ -1,22 +1,22 @@
 <template>
-  <div class="flex justify-center bg-base-200 -mt-10">
-    <div class="card w-1/2 bg-white -mt-7 mb-10 pb-10">
-      <div class="flex items-center justify-between pr-16 px-5">
+  <div class="flex justify-center bg-base-200 mt-10 sm:mt-5 mt:-mt-5 lg:-mt-10">
+    <div class="card lg:w-1/2 bg-white -mt-7 mb-10 pb-10">
+      <div class="flex flex-col md:flex-row items-center justify-between pr-16 px-5">
         <slot name="title"/>
 
-        <div class="grid grid-cols-3 gap-4 pt-20">
+        <div class="grid grid-cols-3 gap-4 md:pt-20">
           <div class="avatar">
-            <div class="w-12 rounded-full">
+            <div class="w-6 lg:w-12 rounded-full">
               <img src="~/assets/images/flags/Brazil.png" />
             </div>
           </div>
           <div class="avatar">
-            <div class="w-12 rounded-full">
+            <div class="w-6 lg:w-12 rounded-full">
               <img src="~/assets/images/flags/Mexico.jpg" />
             </div>
           </div>
           <div class="avatar">
-            <div class="w-12 rounded-full">
+            <div class="w-6 lg:w-12 rounded-full">
               <img src="~/assets/images/flags/US.png" />
             </div>
           </div>
@@ -37,7 +37,7 @@
           </div>
 
 
-          <div class="col-span-8">
+          <div class="col-span-12 md:col-span-8">
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text">Email</span>
@@ -48,10 +48,10 @@
               />
             </label>
           </div>
-          <div class="col-span-4 w-full">
+          <div class="col-span-12 md:col-span-4 w-full">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Email</span>
+                <span class="label-text">Telefone</span>
               </div>
               <input
                   type="text"
@@ -60,7 +60,7 @@
             </label>
           </div>
 
-          <div class="col-span-7">
+          <div class="col-span-12 md:col-span-7">
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text">Endereço</span>
@@ -71,7 +71,7 @@
               />
             </label>
           </div>
-          <div class="col-span-5">
+          <div class="col-span-12 md:col-span-5">
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text">Cidade</span>
@@ -83,7 +83,7 @@
             </label>
           </div>
 
-          <div class="col-span-6">
+          <div class="col-span-12 md:col-span-6">
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text">CPF/CNPJ</span>
@@ -94,7 +94,7 @@
               />
             </label>
           </div>
-          <div class="col-span-6">
+          <div class="col-span-12 md:col-span-6">
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text">RG</span>
@@ -106,7 +106,7 @@
             </label>
           </div>
 
-          <div class="col-span-6">
+          <div class="col-span-12 md:col-span-6">
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text">Categoria de negócio</span>
@@ -117,10 +117,10 @@
               />
             </label>
           </div>
-          <div class="col-span-6">
+          <div class="col-span-12 md:col-span-6">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Nome da empre</span>
+                <span class="label-text">Nome da empresa</span>
               </div>
               <input
                   type="text"

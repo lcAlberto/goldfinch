@@ -2,22 +2,22 @@
 <div class="flex flex-col">
   <div class="background">
     <div class="w-full flex flex-col">
-      <default-header />
+      <default-header :transparent="true"/>
 
-      <div class="flex justify-center items-center text-gray-50 overflow-hidden">
+      <div class="flex justify-center items-center text-gray-50 overflow-hidden md:h-auto min-h-100">
         <img
             src="~/assets/images/quero-crescer/01.png"
             alt=""
-            class="w-1/4"
+            class="hidden sm:block w-1/3 md:w-1/4"
         />
-        <div class="w-1/5">
-          <h1 class="text-4xl mb-8">
+        <div class="w-1/2 lg:w-1/5">
+          <h1 class="text-2xl md:text-4xl lg:mb-8">
             Quero<br>
             <span class="font-bold">
             crescer meu negócio
           </span>
           </h1>
-          <p>
+          <p class="break-words">
             Lorem ipsum habitant ligula lobortis risus etiam, bibendum dictum nullam dolor sit rhoncus dolor, sociosqu curabitur arcu ornare turpis.
           </p>
         </div>
