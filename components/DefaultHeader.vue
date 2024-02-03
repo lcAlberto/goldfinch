@@ -1,9 +1,20 @@
 <template>
   <div
-      class="max-w-100 lg:w-1/2 p-5 mx-auto flex flex-row gap-3 items-center justify-between flex-wrap text-gray-100 md:bg-transparent"
-      :class="transparent ? '' : 'bg-primary'"
+      class="max-w-100 lg:w-1/2 p-5 mx-auto flex flex-row gap-3 items-center justify-between flex-wrap z-10"
+      :class="{
+        'bg-primary': transparent,
+        // 'bg-transparent': !transparent,
+        'text-gray-100': !dark,
+      }"
   >
     <img
+        v-if="dark"
+        src="~/assets/images/logo-GOLDFINCH.png"
+        class="md:w-32 w-1/4"
+        alt=""
+    />
+    <img
+        v-else
         src="~/assets/images/logo-GOLDFINCH_white_footer.png"
         class="md:w-32 w-1/4"
         alt=""
@@ -22,7 +33,10 @@
         <NuxtLink to="/#d">POD</NuxtLink>
       </li>
     </ul>
-    <div class="flex lg:flex-col border border-gray-100 py-1 px-5 font-bold text-xs">
+    <div
+        class="flex lg:flex-col border py-1 px-5 font-bold text-xs"
+        :class="{'border-gray-100': !dark, 'text-white': dark}"
+    >
       <div class="flex flex-col items items-center">
         IDIOMA
       </div>
@@ -41,7 +55,8 @@
     lang="ts"
 >
 const props = defineProps({
-  transparent: { type: Boolean, default: false }
+  transparent: { type: Boolean, default: false },
+  dark: { type: Boolean, default: false },
 })
 </script>
 
