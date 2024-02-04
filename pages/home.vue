@@ -1,9 +1,9 @@
 <template>
   <div class="w-full flex flex-col items-center">
     <default-header :dark="true" />
-    <section class="w-1/2 flex flex-row">
+    <section class="w-1/2 flex flex-row items-center">
       <div class="z-10">
-        <h1 class="text-3xl">
+        <h1 class="text-3xl mb-3">
           Dê um passo para
           <span class="font-bold text-secondary">investir</span>
           no futuro
@@ -11,7 +11,7 @@
         <p class="text-gray-500 text-sm">
           Lorem ipsum varius faucibus ultrices maecenas cubilia curabitur aptent, nulla magna felis sem maecenas
         </p>
-        <button class="btn btn-secondary btn-sm rounded-full font-bold py-1 px-7">
+        <button class="btn btn-secondary btn-sm rounded-full font-bold py-1 px-7 mt-7">
           CONHEÇA
         </button>
       </div>
@@ -30,7 +30,7 @@
     </section>
     <section class="w-full -mt-7 bg-white flex flex-col items-center justify-center z-10 py-10">
       <div class="card card-side shadow-xl bg-secondary my-5">
-        <div class="bg-[url('~/assets/images/about/01.png')] bg-cover h-72 rounded-l-lg w-3/5" />
+        <div class="bg-[url('~/assets/images/home/01.png')] bg-cover h-72 rounded-l-lg w-3/5" />
         <div class="w-1/2 card-body text-white flex flex-col justify-center items-center">
           <h2 class="card-title text-2xl">
             <span class="font-normal">Quero</span>
@@ -50,9 +50,9 @@
       <div class="card card-side shadow-xl bg-primary my-5">
         <div class="bg-[url('~/assets/images/home/handshake.png')] bg-cover h-72 rounded-l-lg w-3/5" />
         <div class="w-1/2 card-body text-white flex flex-col justify-center items-center">
-          <h2 class="card-title text-2xl">
-            <span class="font-normal">Quero</span>
-            crescer meu negócio
+          <h2 class="text-2xl">
+            Quero
+            <span class="font-bold">crescer<br> meu negócio</span>
           </h2>
           <span class="mt-3">
             Lorem ipsum varius faucibus ultrices maecenas cubilia curabitur aptent, nulla magna felis sem maecenas
@@ -65,23 +65,33 @@
         </div>
       </div>
     </section>
-    <section class="w-full flex bg-[url('~/assets/images/home/04.png')] z-10">
-      <div class="text-white">
-        <img
-            src="~/assets/images/home/05.png"
-            class="w-4/5"
-        >
-        <h2 class="card-title text-2xl">
-          Oportunidades para <span>investir</span>
-          e também pra receber
-          <span class="font-bold">
+    <section class="w-full bg-[url('~/assets/images/home/04.png')] z-10">
+      <div class="w-8/12 flex justify-center">
+        <div class="overflow-hidden" style="height: 70vh;">
+          <img
+              src="~/assets/images/home/05.png"
+              alt="image"
+              class="w-3/4 ml-auto -mt-32"
+          >
+        </div>
+        <div class="w-1/4 flex flex-col justify-center text-white">
+          <h2 class="text-4xl">
+            Oportunidades para <span class="font-bold">investir</span>
+            e também pra receber
+            <span class="font-bold">
             investimento
           </span>
-        </h2>
-        <button class="btn btn-outline-white">
-          SAIBA MAIS
-        </button>
+          </h2>
+          <div class="">
+            <button class="btn btn-sm rounded-full bg-transparent border border-gray-100 text-white px-10 text-center my-10 hover:text-primary">
+              SAIBA MAIS
+            </button>
+          </div>
+        </div>
       </div>
+    </section>
+    <section class="w-full z-10">
+      <defailt-footer />
     </section>
   </div>
 </template>
