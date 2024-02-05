@@ -10,15 +10,18 @@
             alt=""
             class="hidden sm:block w-1/3 md:w-1/4"
         />
-        <div class="w-1/2 lg:w-1/5">
-          <h1 class="text-2xl md:text-4xl lg:mb-8">
+        <div class="w-1/3 lg:w-1/5">
+          <h1 class="text-2xl text-center md:text-4xl lg:mb-8">
             Quero<br>
             <span class="font-bold">
             investir
           </span>
           </h1>
           <p class="break-words">
-            Lorem ipsum habitant ligula lobortis risus etiam, bibendum dictum nullam dolor sit rhoncus dolor, sociosqu curabitur arcu ornare turpis.
+            Descubre oportunidades de inversión
+            en empresas innovadoras y de alto
+            crecimiento a través de la negociación
+            de “equity”
           </p>
         </div>
       </div>
@@ -32,61 +35,61 @@
         </template>
       </FormComponent>
       <div class="w-full bg-base-200">
-        <div class="w-1/2 mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-4 pb-5 my-10">
+        <!-- <div class="w-1/2 mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-4 pb-5 my-10"> -->
           <!-- Primeira linha -->
-          <div class="md:col-span-2 lg:col-span-2">
+          <!-- <div class="md:col-span-2 lg:col-span-2">
             <img
                 src="~/assets/images/received/barracao-original.jpg"
                 class="w-full h-36 object-cover rounded-lg"
                 alt="Imagem 1"
             >
-          </div>
-          <div class="md:col-span-1 lg:col-span-1">
+          </div> -->
+          <!-- <div class="md:col-span-1 lg:col-span-1">
             <img
                 src="~/assets/images/brands/axcel.png"
                 class="w-full h-36 object-cover rounded-lg"
                 alt="Imagem 2"
             >
-          </div>
+          </div> -->
 
           <!-- Segunda linha -->
-          <div class="md:col-span-1 lg:col-span-1">
+          <!-- <div class="md:col-span-1 lg:col-span-1">
             <img
                 src="~/assets/images/received/city.jpg"
                 class="w-full h-36 object-cover rounded-lg"
                 alt="Imagem 3"
             >
-          </div>
-          <div class="md:col-span-1 lg:col-span-1">
+          </div> -->
+          <!-- <div class="md:col-span-1 lg:col-span-1">
             <img
                 src="~/assets/images/brands/consult.png"
                 class="w-full h-36 object-cover rounded-lg"
                 alt="Imagem 4"
             >
-          </div>
-          <div class="md:col-span-1 lg:col-span-1">
+          </div> -->
+          <!-- <div class="md:col-span-1 lg:col-span-1">
             <img
                 src="~/assets/images/received/team.jpg"
                 class="w-full h-36 object-cover rounded-lg"
                 alt="Imagem 5"
             >
-          </div>
+          </div> -->
 
           <!-- Terceira linha -->
-          <div class="md:col-span-1 lg:col-span-1">
+          <!-- <div class="md:col-span-1 lg:col-span-1">
             <img
                 src="~/assets/images/brands/company.png"
                 class="w-full h-36 object-cover rounded-lg"
                 alt="Imagem 6"
             >
-          </div>
-          <div class="md:col-span-2 lg:col-span-2">
+          </div> -->
+          <!-- <div class="md:col-span-2 lg:col-span-2">
             <img
                 src="~/assets/images/received/shopping.jpg"
                 class="w-full h-36 object-cover rounded-lg"
                 alt="Imagem 7"
             >
-          </div>
+          </div> -->
 <!--          <div class="card col-span-6 bg-base-100 shadow-xl image-full overflow-hidden max-h-60">-->
 <!--            <img-->
 <!--                src="~/assets/images/received/barracao-original.jpg"-->
@@ -141,7 +144,7 @@
     </div>
   </div>
   <DefailtFooter />
-</div>
+<!-- </div> -->
 </template>
 <script
     setup

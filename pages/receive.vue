@@ -14,11 +14,15 @@
           <h1 class="text-2xl md:text-4xl lg:mb-8">
             Quero<br>
             <span class="font-bold">
-            crescer meu negócio
+            crescer meu 
+            <br>
+            negócio
           </span>
           </h1>
           <p class="break-words">
-            Lorem ipsum habitant ligula lobortis risus etiam, bibendum dictum nullam dolor sit rhoncus dolor, sociosqu curabitur arcu ornare turpis.
+            Descubre cómo desbloquear todo el
+            potencial de tu negocio a través de la
+            negociación de “equity”
           </p>
         </div>
       </div>

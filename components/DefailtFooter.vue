@@ -13,13 +13,13 @@
           <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
         </div>
       </div>
-      <div class="text-secondary text-center">
+      <div class="text-secondary mt-8 text-center">
         <span class="text-xl font-semibold">
           Goldfinch © All rights reserved
         </span>
-        <p class="text-white">
+        <!-- <p class="text-white">
           Lorem ipsum habitant ligula lobortis risus etiam, bibendum dictum nullam dolor sit rhoncus dolor, sociosqu curabitur arcu ornare turpis.
-        </p>
+        </p> -->
       </div>
     </div>
   </footer>

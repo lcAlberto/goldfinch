@@ -7,21 +7,25 @@
         'text-gray-100': !dark,
       }"
   >
-    <img
-        v-if="dark"
-        src="~/assets/images/logo-GOLDFINCH.png"
-        class="md:w-32 w-1/4"
-        alt=""
-    />
-    <img
-        v-else
-        src="~/assets/images/logo-GOLDFINCH_white_footer.png"
-        class="md:w-32 w-1/4"
-        alt=""
-    />
+    <NuxtLink
+      to="/home"  
+    >
+      <img
+          v-if="dark"
+          src="~/assets/images/logo-GOLDFINCH.png"
+          class="md:w-32 w-1/4"
+          alt=""
+      />
+      <img
+          v-else
+          src="~/assets/images/logo-GOLDFINCH_white_footer.png"
+          class="md:w-32 w-1/4"
+          alt=""
+      />
+    </NuxtLink>
     <ul class="flex flex-row gap-2 md:gap-5">
       <li>
-        <NuxtLink to="/">Início</NuxtLink>
+        <NuxtLink to="/home">Início</NuxtLink>
       </li>
       <li>
         <NuxtLink to="/investor">Cadastro</NuxtLink>
@@ -41,9 +45,9 @@
         IDIOMA
       </div>
       <div class="flex items-center ml-2 gap-2">
-        <span>ENG</span>
-        <span>|</span>
         <span>ESP</span>
+        <span>|</span>
+        <span>ENG</span>
         <span>|</span>
         <span>PT</span>
       </div>
@@ -62,5 +66,14 @@ const props = defineProps({
 
 
 <style scoped>
+
+ul li a {
+  color: rgb(200, 200, 200);
+  transition: color 0.3s ease-in-out;
+}
+
+ul li a:hover {
+  color: rgb(158, 12, 230);
+}
 
 </style>
