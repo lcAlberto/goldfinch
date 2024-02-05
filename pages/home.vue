@@ -4,12 +4,12 @@
     <section class="md:w-1/2 flex flex-row items-center">
       <div class="z-10">
         <h1 class="text-lg md:text-5xl mb-4">
-          Dê um passo 
+          Da un paso 
           <br>
           para
-          <span class="font-bold text-secondary">investir</span>
+          <span class="font-bold text-secondary">invertir</span>
           <br>
-          no futuro
+          en el futuro
         </h1>
         <p class="text-gray-500 mb-3 text-md md:text-lg">
           Únete ahora a la nueva forma de conectar empresas 
@@ -41,8 +41,8 @@
         <div class="hidden sm:block bg-[url('~/assets/images/home/01.png')] bg-cover h-72 rounded-l-lg w-3/5" />
         <div class="w-1/2 card-body text-white flex flex-col justify-center items-center">
           <h2 class="card-title text-2xl">
-            <span class="font-normal">Quero</span>
-            investir
+            <span class="font-normal">Quiero</span>
+            invertir
           </h2>
           <div class="">
           <span class="mt-3 text-center">
@@ -56,7 +56,7 @@
           <div class="card-actions justify-center mt-auto">
             <NuxtLink to="/investor">
               <button class="btn btn-secondary btn-sm bg-purple-500 px-10 font-bold">
-                SAIBA MAIS
+                DESCUBRA MÁS
               </button>
             </NuxtLink>
           </div>
@@ -67,8 +67,8 @@
         <div class="hidden sm:block bg-[url('~/assets/images/home/handshake.png')] bg-cover md:h-72 rounded-l-lg w-3/5" />
         <div class="w-1/2 card-body text-white flex flex-col justify-center items-center">
           <h2 class="text-2xl">
-            Quero
-            <span class="font-bold">crescer<br> meu negócio</span>
+            Quiero
+            <span class="font-bold">crecer mi negocio</span>
           </h2>
           <span class="mt-3 text-center">
             Descubre cómo desbloquear todo el potencial 
@@ -78,7 +78,7 @@
           <div class="card-actions justify-center mt-auto">
             <NuxtLink to="/receive">
               <button class="btn btn-primary bg-indigo-900 btn-sm px-10 font-bold">
-                SAIBA MAIS
+                DESCUBRA MÁS
               </button>
             </NuxtLink>
           </div>
@@ -105,7 +105,7 @@
           <div class="">
             <NuxtLink to="/about"> 
               <button class="btn btn-sm rounded-full bg-transparent border border-gray-100 text-white px-10 text-center my-10 hover:text-primary">
-                SAIBA MAIS
+                SABER MÁS
               </button>
             </NuxtLink>  
           </div>

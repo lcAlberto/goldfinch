@@ -28,9 +28,9 @@
       <FormComponent>
         <template #title>
           <h1 class="text-primary text-3xl pt-20 px-14">
-            Cadastre-se para ser<br>
-            um
-            <span class="font-bold">investidor</span>
+            Únete a nosotros<br>
+            como
+            <span class="font-bold">inversor</span>
           </h1>
         </template>
       </FormComponent>

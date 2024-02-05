@@ -8,7 +8,7 @@
         <div class="w-11/12 lg:w-1/3 overflow-hidden">
           <br>
           <h1 class="text-5xl md:text-5xl font-bold mb-9">
-            Quem somos
+            Quiénes somos
           </h1>
           <p class="w-3/6 lg:w-1/2 text-secondary">
             En Goldfinch, impulsamos el éxito en los negocios. Conectamos a
@@ -96,8 +96,8 @@
       <div class="w-full bg-base-200">
         <div class="w-1/2 mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-3 justify-center py-5 my-10">
           <h2 class="sm:col-span-2 md:col-span-4 text-secondary text-3xl text-center my-5">
-            Nosso
-            <span class="font-bold">time</span>
+            Nuestro
+            <span class="font-bold">equipo</span>
           </h2>
           <div class="text-center">
             <img

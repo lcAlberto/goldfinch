@@ -25,13 +25,13 @@
     </NuxtLink>
     <ul class="flex flex-row gap-2 md:gap-5">
       <li>
-        <NuxtLink to="/home">Início</NuxtLink>
+        <NuxtLink to="/home">HOME</NuxtLink>
       </li>
       <li>
         <NuxtLink to="/investor">Cadastro</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/about">Quem somos</NuxtLink>
+        <NuxtLink to="/about">Quiénes somos</NuxtLink>
       </li>
       <li>
         <NuxtLink to="/#d">POD</NuxtLink>

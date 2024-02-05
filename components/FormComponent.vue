@@ -27,7 +27,7 @@
           <div class="col-span-12">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Nome</span>
+                <span class="label-text">Nombre</span>
               </div>
               <input
                   type="text"
@@ -40,7 +40,7 @@
           <div class="col-span-12 md:col-span-8">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Email</span>
+                <span class="label-text">Correo electrónico</span>
               </div>
               <input
                   type="text"
@@ -51,7 +51,7 @@
           <div class="col-span-12 md:col-span-4 w-full">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Telefone</span>
+                <span class="label-text">Teléfono</span>
               </div>
               <input
                   type="text"
@@ -63,7 +63,7 @@
           <div class="col-span-12 md:col-span-7">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Endereço</span>
+                <span class="label-text">Dirección</span>
               </div>
               <input
                   type="text"
@@ -74,7 +74,7 @@
           <div class="col-span-12 md:col-span-5">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Cidade</span>
+                <span class="label-text">Ciudad</span>
               </div>
               <input
                   type="text"
@@ -83,7 +83,19 @@
             </label>
           </div>
 
-          <div class="col-span-12 md:col-span-6">
+          <div class="col-span-12">
+            <label class="form-control w-full">
+              <div class="label">
+                <span class="label-text">RFC</span>
+              </div>
+              <input
+                  type="text"
+                  class="input bg-base-200 w-full"
+              />
+            </label>
+          </div>
+
+          <!-- <div class="col-span-12 md:col-span-6">
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text">CPF/CNPJ</span>
@@ -104,12 +116,13 @@
                   class="input bg-base-200 w-full"
               />
             </label>
-          </div>
+          </div> -->
 
           <div class="col-span-12 md:col-span-6">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Categoria de negócio</span>
+                <span class="label-text">Categoría de negocio
+                </span>
               </div>
               <input
                   type="text"
@@ -120,7 +133,7 @@
           <div class="col-span-12 md:col-span-6">
             <label class="form-control w-full">
               <div class="label">
-                <span class="label-text">Nome da empresa</span>
+                <span class="label-text">Nombre de la empresa</span>
               </div>
               <input
                   type="text"
@@ -135,7 +148,7 @@
                     type="checkbox"
                     class="checkbox checkbox-primary"
                 />
-                <span class="label-text ml-2">Remember me</span>
+                <span class="label-text ml-2">Recuerda</span>
               </label>
             </div>
           </div>
