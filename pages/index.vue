@@ -1,73 +1,113 @@
 <template>
-  <!-- <div class="fixed navbar bg-primary z-10 p-16"></div> -->
-  <section class="sooner bg-cover bg-[url('~/assets/images/background/em-construcao.png')] relative flex bg-gray-100 h-screen overflow-hidden">
-    <div class="justify-start mt-4">
-      <div class="ml-4 block">
-        <h1 class="ml-4 mt-40 text-gray-400 text-fixed leading-none">
-          UNDER CONSTRUCTION
-        </h1>
-        <h4 class="ml-4 text-lg mt-30 subtext-fixed text-gray-400 leading-tight">
-          Our website will be ready soon!
-        </h4>
-      </div>
-    </div>
-    <!-- <div class="w-[60%] flex justify-start mt-[20%]">
-      <div class="w-1/3 ml-[30%] block">
-        <h1 class="text-5xl font leading-[3.5rem]">
+  <div class="w-full flex flex-col items-center">
+    <default-header :dark="true" />
+    <section class="md:w-1/2 flex flex-row items-center">
+      <div class="z-10">
+        <h1 class="text-lg md:text-3xl mb-3">
           Dê um passo para
-          <span class="text-secondary font-bold">investir</span>
+          <span class="font-bold text-secondary">investir</span>
           no futuro
         </h1>
-        <h4 class="text-lg mt-16 text-gray-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        </h4>
-        <div class="mt-16">
-          <button class="btn btn-sm btn-secondary px-5 uppercase tracking-[8px] rounded-3xl">Conheça</button>
+        <p class="text-gray-500 text-xs md:text-sm">
+          Lorem ipsum varius faucibus ultrices maecenas cubilia curabitur aptent, nulla magna felis sem maecenas
+        </p>
+        <button class="btn btn-secondary btn-sm rounded-full font-bold py-1 px-7 mt-7">
+          CONHEÇA
+        </button>
+      </div>
+      <div class="z-10">
+        <img
+            src="~/assets/images/background/01.png"
+            class=""
+        >
+      </div>
+      <div class="hidden md:block fixed right-0 top-0 -z-1">
+        <img
+            src="~/assets/images/background/home.png"
+            class="ml-auto md:w-1/2 lg:w-full"
+        >
+      </div>
+    </section>
+    <section class="w-full md:-mt-7 bg-white flex flex-col items-center justify-center z-10 py-10">
+      <div class="card card-side shadow-xl bg-secondary my-5">
+        <div class="hidden sm:block bg-[url('~/assets/images/home/01.png')] bg-cover h-72 rounded-l-lg w-3/5" />
+        <div class="w-1/2 card-body text-white flex flex-col justify-center items-center">
+          <h2 class="card-title text-2xl">
+            <span class="font-normal">Quero</span>
+            investir
+          </h2>
+          <span class="mt-3">
+            Lorem ipsum varius faucibus ultrices maecenas cubilia curabitur aptent, nulla magna felis sem maecenas
+          </span>
+          <div class="card-actions justify-center mt-auto">
+            <button class="btn btn-secondary btn-sm bg-indigo-500 px-10 font-bold">
+              SAIBA MAIS
+            </button>
+          </div>
         </div>
       </div>
-    </div> -->
-    <!-- <div class="w-[40%] sooner bg-[url('~/assets/images/background/home.png')]">
-      <img class="w-1/2 z-1 absolute right-[15%] mt-10 mr-24" src="~/assets/images/background/01.png" alt="01">
-    </div> -->
-  </section>
 
-  <!-- <section class="relative w-full flex bg-gray-100 h-screen overflow-hidden"></section> -->
+      <div class="card card-side shadow-xl bg-primary my-5">
+        <div class="hidden sm:block bg-[url('~/assets/images/home/handshake.png')] bg-cover md:h-70 rounded-l-lg w-3/5" />
+        <div class="w-1/2 card-body text-white flex flex-col justify-center items-center">
+          <h2 class="text-2xl">
+            Quero
+            <span class="font-bold">crescer<br> meu negócio</span>
+          </h2>
+          <span class="mt-3">
+            Lorem ipsum varius faucibus ultrices maecenas cubilia curabitur aptent, nulla magna felis sem maecenas
+          </span>
+          <div class="card-actions justify-center mt-auto">
+            <button class="btn btn-primary bg-indigo-900 btn-sm px-10 font-bold">
+              SAIBA MAIS
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full bg-[url('~/assets/images/home/04.png')] z-10">
+      <div class="w-8/12 flex justify-center">
+        <div class="hidden sm:block overflow-hidden h-72 h-70">
+          <img
+              src="~/assets/images/home/05.png"
+              alt="image"
+              class="w-3/4 ml-auto md:-mt-32"
+          >
+        </div>
+        <div class="w-1/4 flex flex-col md:justify-center text-white">
+          <h2 class="text-2xl md:text-4xl">
+            Oportunidades para <span class="font-bold">investir</span>
+            e também pra receber
+            <span class="font-bold">
+            investimento
+          </span>
+          </h2>
+          <div class="">
+            <button class="btn btn-sm rounded-full bg-transparent border border-gray-100 text-white px-10 text-center my-10 hover:text-primary">
+              SAIBA MAIS
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full z-10">
+      <defailt-footer />
+    </section>
+  </div>
 </template>
+<script lang="ts">
+import DefaultHeader from "~/components/DefaultHeader.vue";
 
-<style scoped>
- .sooner {
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
- }
-
-  .text-fixed {
-  position: relative;
-  font-size: 2.6rem;
-  }
-  .subtext-fixed {
-  position: relative;
-  font-size: 1.6rem;
-  }
-  @media (max-width: 300px) {
-  .text-fixed {
-    font-size: 2rem;
-  }
-  .subtext-fixed {
-    font-size: 1.2rem;
-  }
-} 
-</style>
-<script setup lang="ts">
+export default {
+  components: { DefaultHeader }
+}
 </script>
 
-<style scoped>
-nav > ul > li {
-  @apply link no-underline hover:underline text-gray-500 font-bold;
-}
 
-nav > ul > .active {
-  @apply text-secondary;
+<style scoped>
+@media (min-width: 766px) {
+  .h-70 {
+    height: 70vh;
+  }
 }
 </style>
