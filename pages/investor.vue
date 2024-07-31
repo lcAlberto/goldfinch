@@ -2,7 +2,7 @@
 <div class="flex flex-col">
   <div class="background">
     <div class="w-full flex flex-col">
-      <default-header :transparent="true" />
+      <default-header />
 
       <div class="flex justify-center items-center text-gray-50 overflow-hidden md:h-auto min-h-100">
         <img

@@ -8,7 +8,7 @@
       }"
   >
     <NuxtLink
-      to="/home"  
+      to="/"
     >
       <img
           v-if="dark"
@@ -25,16 +25,16 @@
     </NuxtLink>
     <ul class="flex flex-row gap-2 md:gap-5">
       <li>
-        <NuxtLink to="/home">HOME</NuxtLink>
+        <NuxtLink :class="{'!text-black': dark}" active-class="text-primary" to="/">HOME</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/investor">Cadastro</NuxtLink>
+        <NuxtLink :class="{'!text-black': dark}" active-class="text-primary" to="/investor">Cadastro</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/about">Quiénes somos</NuxtLink>
+        <NuxtLink :class="{'!text-black': dark}" active-class="text-primary" to="/about">Quiénes somos</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/#d">POD</NuxtLink>
+        <NuxtLink :class="{'!text-black': dark}" active-class="text-primary" to="/#d">POD</NuxtLink>
       </li>
     </ul>
     <div
